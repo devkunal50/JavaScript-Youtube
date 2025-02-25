@@ -1,0 +1,53 @@
+#let,const and var -
+#const - Once it is decalared it cannot be changed.
+
+#var - is function-scoped, meaning it is accessible throughout the function in which it is declared.
+-var allows re-declaration within the same scope.
+-var is declared in the global scope, it becomes a property of the window object in browsers.
+
+#let - is block-scoped, meaning it is only accessible within the {} block in which it is declared.
+-let does not allow re-declaration within the same scope.
+-let does not create a property on the window object.
+
+*TRY NOT TO USE var*
+
+When we have to print one value to the screen we use console.lof() but when we have to print more than one value we have to again and again use console.log(). So the solution to this problem is we can use console.table([]) given than inside the round brackets we have to use square brackets and inside that we can give multiple variable values separated by comma "," and done.
+
+#Here is the Example- 
+
+#So the First method is this that we can manually use console.log() to print each value- 
+
+const accountId = 144553
+let accountEmail = "wankhadekunal77@gmail.com"
+var accountPassword = "15423"
+accountCity = "Amravati"
+
+// accountId = 2
+accountEmail = "Wankhadekunal777@gmail.com"
+accountPassword = "kun@l.googlepassword"
+accountCity = "Mumbai"
+console.log(accountEmail);
+console.log(accountPassword);
+console.log(accountCity);
+
+copy the code and see the output.
+
+#And the second way is that we can use console.table([])-
+
+const accountId = 144553
+let accountEmail = "wankhadekunal77@gmail.com"
+var accountPassword = "15423"
+accountCity = "Amravati"
+
+// accountId = 2
+accountEmail = "Wankhadekunal777@gmail.com"
+accountPassword = "kun@l.googlepassword"
+accountCity = "Mumbai"
+console.table([accountEmail, accountPassword, accountCity]);
+
+copy the code and see the output.
+
+#DataTypes and ECMA Standards in JavaScript.
+
+"use strict"; - Treat all JS code as newer version.
+
