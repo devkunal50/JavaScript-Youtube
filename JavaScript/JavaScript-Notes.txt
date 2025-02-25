@@ -52,16 +52,17 @@ copy the code and see the output.
 "use strict"; - Treat all JS code as newer version.
 
 
-#Javascript has 8 Datatypes
-String
-Number
-Bigint
-Boolean
-Undefined
-Null
-Symbol
-Object
+#Javascript has 8 Datatypes.
 
+String => sequence of characters.
+Number.
+Bigint.
+Boolean => true or false.
+Undefined => By default it is a value. undefined is a undefined.
+Null => standalone value. null is a type of object in Javascript
+Symbol => unique.
+
+#Object -
 
 #The Object Datatype
 The object data type can contain both built-in objects, and user defined objects:
@@ -92,3 +93,5 @@ float (32-bit), double (64-bit).
 
 Javascript numbers are always one type:
 double (64-bit floating point).
+
+we can use "typeof" to get the type of datatype we are using.
