@@ -1,6 +1,6 @@
 "use strict"; 
 
-let name = "kunal"
+let name = "kunal vijay wankhade"
 let age = 19
-let isTrue = false
+let hobby = "singing"
 
